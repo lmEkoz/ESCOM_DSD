@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity dado is
 	port(
 		clk: in std_logic;
-		sw: in std_logic_vector(1 downto 0);
+		sw: in std_logic;
 		salida: out std_logic_vector(5 downto 0)
 	);
 end dado;
